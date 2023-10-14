@@ -27,6 +27,28 @@
 .App-link {
   color: #61dafb;
 }
+/* App.css */
+
+.component-container {
+  align-items: center;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  /* border: 1px solid #ddd; Add a border for the edge effect */
+  border-radius: 25px;
+  padding: 20px;
+  line-height: normal;
+  background-color: #61dafb; /* Add padding for spacing inside the container */
+}
+
+button {
+  padding: 8px;
+  border-radius: 18px;
+  font-size: 18px; /* Increase the font size to make the buttons larger */
+}
+
 
 @keyframes App-logo-spin {
   from {
